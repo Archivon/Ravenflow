@@ -1,0 +1,16 @@
+FROM node:18-alpine
+
+WORKDIR /app
+
+# Instalar dependências de desenvolvimento
+COPY backend/package*.json ./
+RUN npm install
+
+# Copiar código
+COPY backend/ .
+
+# Expor porta
+EXPOSE 3000
+
+# Comando para desenvolvimento com nodemon
+CMD ["npm", "run", "dev"]
