@@ -7,8 +7,8 @@ No interesse de promover um ambiente aberto e acolhedor, nós, como contribuidor
 
 ## Nossas Responsabilidades
 Os mantenedores do projeto são responsáveis por esclarecer e aplicar os nossos padrões de comportamento aceitável e tomarão ações corretivas apropriadas e justas em resposta a qualquer instância de comportamento inaceitável. Os mantenedores têm o direito e a responsabilidade de remover, editar ou rejeitar comentários, commits, código, edições de wiki, issues e outras contribuições que não estejam alinhadas com este Código de Conduta, ou banir temporária ou permanentemente qualquer contribuidor por outros comportamentos que considerem inadequados, ameaçadores, ofensivos ou prejudiciais.
-[Mantenedora: juliareboucasleite](https://github.com/juliareboucasleite)
-
+[Mantenedora: J.R leite e Lucas Castro](https://github.com/juliareboucasleite) (https://github.com/LuquinhasCTR) 
+eboucas
 ## Escopo
 Este Código de Conduta aplica-se tanto dentro dos espaços do projeto quanto em espaços públicos quando um indivíduo está representando o projeto ou a sua comunidade. Exemplos de representação incluem usar um endereço de email oficial do projeto, postar através de uma conta oficial de rede social, ou atuar como representante designado num evento online ou offline.
 
