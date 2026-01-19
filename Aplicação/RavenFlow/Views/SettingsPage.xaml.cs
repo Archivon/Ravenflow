@@ -1,8 +1,8 @@
 ﻿using Microsoft.UI.Xaml.Controls;
 
-using RavenFlow.ViewModels;
+using RavenFLow.ViewModels;
 
-namespace RavenFlow.Views;
+namespace RavenFLow.Views;
 
 // TODO: Set the URL for your privacy policy by updating SettingsPage_PrivacyTermsLink.NavigateUri in Resources.resw.
 public sealed partial class SettingsPage : Page

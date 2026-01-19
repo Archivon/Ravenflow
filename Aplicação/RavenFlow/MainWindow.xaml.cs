@@ -1,8 +1,8 @@
-﻿using RavenFlow.Helpers;
+﻿using RavenFLow.Helpers;
 
 using Windows.UI.ViewManagement;
 
-namespace RavenFlow;
+namespace RavenFLow;
 
 public sealed partial class MainWindow : WindowEx
 {

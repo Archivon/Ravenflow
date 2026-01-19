@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("RavenFlow.Core")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("RavenFLow.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c172f09d9eba0f3af5bd336a3e13f62ce5404de7")]
-[assembly: System.Reflection.AssemblyProductAttribute("RavenFlow.Core")]
-[assembly: System.Reflection.AssemblyTitleAttribute("RavenFlow.Core")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60e727e770ad5e8c02363777542927c154071337")]
+[assembly: System.Reflection.AssemblyProductAttribute("RavenFLow.Core")]
+[assembly: System.Reflection.AssemblyTitleAttribute("RavenFLow.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

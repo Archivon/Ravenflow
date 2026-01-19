@@ -1,7 +1,7 @@
 ﻿using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Data;
 
-namespace RavenFlow.Helpers;
+namespace RavenFLow.Helpers;
 
 public class EnumToBooleanConverter : IValueConverter
 {

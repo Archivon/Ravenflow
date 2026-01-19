@@ -11,14 +11,14 @@
   IgnorableNamespaces="uap rescap genTemplate">
 
   <Identity
-    Name="a80165ff-e682-4e68-9abd-3fe6a51a1e01"
+    Name="e2a72511-2201-47ba-ac85-bd1d2d52be0f"
     Publisher="CN=lucak"
     Version="1.0.0.0" />
     
-  <mp:PhoneIdentity PhoneProductId="a80165ff-e682-4e68-9abd-3fe6a51a1e01" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="e2a72511-2201-47ba-ac85-bd1d2d52be0f" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
     
   <Properties>
-    <DisplayName>RavenFlow</DisplayName>
+    <DisplayName>RavenFLow</DisplayName>
     <PublisherDisplayName>lucak</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -47,13 +47,13 @@
       </uap:VisualElements>
       <Extensions>
           <desktop:Extension Category="windows.toastNotificationActivation">
-              <desktop:ToastNotificationActivation ToastActivatorCLSID="66230409-8ec1-445e-8f87-3764735d13ea" />
+              <desktop:ToastNotificationActivation ToastActivatorCLSID="028e402c-f020-47b1-af33-84c5965d68db" />
           </desktop:Extension>
 
           <com:Extension Category="windows.comServer">
               <com:ComServer>
-                  <com:ExeServer Executable="RavenFlow.exe" Arguments="----AppNotificationActivated:" DisplayName="Toast activator">
-                      <com:Class Id="66230409-8ec1-445e-8f87-3764735d13ea" DisplayName="Toast activator"/>
+                  <com:ExeServer Executable="RavenFLow.exe" Arguments="----AppNotificationActivated:" DisplayName="Toast activator">
+                      <com:Class Id="028e402c-f020-47b1-af33-84c5965d68db" DisplayName="Toast activator"/>
                   </com:ExeServer>
               </com:ComServer>
           </com:Extension>
@@ -68,7 +68,7 @@
   <genTemplate:Metadata>
     <genTemplate:Item Name="generator" Value="Template Studio"/>
     <genTemplate:Item Name="wizardVersion" Version="v5.5" />
-    <genTemplate:Item Name="projectType" Value="Blank" />
+    <genTemplate:Item Name="projectType" Value="MenuBar" />
     <genTemplate:Item Name="framework" Value="MVVMToolkit" />
     <genTemplate:Item Name="platform" Value="WinUI" />
     <genTemplate:Item Name="appmodel" Value="Desktop" />

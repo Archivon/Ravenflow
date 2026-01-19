@@ -1,4 +1,4 @@
-﻿namespace RavenFlow.Contracts.ViewModels;
+﻿namespace RavenFLow.Contracts.ViewModels;
 
 public interface INavigationAware
 {

@@ -1,4 +1,4 @@
-﻿namespace RavenFlow.Core.Contracts.Services;
+﻿namespace RavenFLow.Core.Contracts.Services;
 
 public interface IFileService
 {

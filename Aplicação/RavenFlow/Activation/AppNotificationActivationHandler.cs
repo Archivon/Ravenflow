@@ -3,10 +3,10 @@ using Microsoft.UI.Xaml;
 using Microsoft.Windows.AppLifecycle;
 using Microsoft.Windows.AppNotifications;
 
-using RavenFlow.Contracts.Services;
-using RavenFlow.ViewModels;
+using RavenFLow.Contracts.Services;
+using RavenFLow.ViewModels;
 
-namespace RavenFlow.Activation;
+namespace RavenFLow.Activation;
 
 public class AppNotificationActivationHandler : ActivationHandler<LaunchActivatedEventArgs>
 {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Windows.ApplicationModel.Resources;
 
-namespace RavenFlow.Helpers;
+namespace RavenFLow.Helpers;
 
 public static class ResourceExtensions
 {

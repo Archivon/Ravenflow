@@ -2,18 +2,18 @@
 using Microsoft.Extensions.Hosting;
 using Microsoft.UI.Xaml;
 
-using RavenFlow.Activation;
-using RavenFlow.Contracts.Services;
-using RavenFlow.Core.Contracts.Services;
-using RavenFlow.Core.Services;
-using RavenFlow.Helpers;
-using RavenFlow.Models;
-using RavenFlow.Notifications;
-using RavenFlow.Services;
-using RavenFlow.ViewModels;
-using RavenFlow.Views;
+using RavenFLow.Activation;
+using RavenFLow.Contracts.Services;
+using RavenFLow.Core.Contracts.Services;
+using RavenFLow.Core.Services;
+using RavenFLow.Helpers;
+using RavenFLow.Models;
+using RavenFLow.Notifications;
+using RavenFLow.Services;
+using RavenFLow.ViewModels;
+using RavenFLow.Views;
 
-namespace RavenFlow;
+namespace RavenFLow;
 
 // To learn more about WinUI 3, see https://docs.microsoft.com/windows/apps/winui/winui3/.
 public partial class App : Application
@@ -72,8 +72,10 @@ public partial class App : Application
             // Views and ViewModels
             services.AddTransient<SettingsViewModel>();
             services.AddTransient<SettingsPage>();
-            services.AddTransient<RavenFlowViewModel>();
-            services.AddTransient<RavenFlowPage>();
+            services.AddTransient<MainViewModel>();
+            services.AddTransient<MainPage>();
+            services.AddTransient<ShellPage>();
+            services.AddTransient<ShellViewModel>();
 
             // Configuration
             services.Configure<LocalSettingsOptions>(context.Configuration.GetSection(nameof(LocalSettingsOptions)));

@@ -1,9 +1,9 @@
 ﻿using Microsoft.UI.Xaml;
 
-using RavenFlow.Contracts.Services;
-using RavenFlow.ViewModels;
+using RavenFLow.Contracts.Services;
+using RavenFLow.ViewModels;
 
-namespace RavenFlow.Activation;
+namespace RavenFLow.Activation;
 
 public class DefaultActivationHandler : ActivationHandler<LaunchActivatedEventArgs>
 {
@@ -22,7 +22,7 @@ public class DefaultActivationHandler : ActivationHandler<LaunchActivatedEventAr
 
     protected async override Task HandleInternalAsync(LaunchActivatedEventArgs args)
     {
-        _navigationService.NavigateTo(typeof(RavenFlowViewModel).FullName!, args.Arguments);
+        _navigationService.NavigateTo(typeof(MainViewModel).FullName!, args.Arguments);
 
         await Task.CompletedTask;
     }

@@ -1,11 +1,11 @@
 ﻿using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 
-using RavenFlow.Activation;
-using RavenFlow.Contracts.Services;
-using RavenFlow.Views;
+using RavenFLow.Activation;
+using RavenFLow.Contracts.Services;
+using RavenFLow.Views;
 
-namespace RavenFlow.Services;
+namespace RavenFLow.Services;
 
 public class ActivationService : IActivationService
 {
@@ -29,6 +29,7 @@ public class ActivationService : IActivationService
         // Set the MainWindow Content.
         if (App.MainWindow.Content == null)
         {
+            _shell = App.GetService<ShellPage>();
             App.MainWindow.Content = _shell ?? new Frame();
         }
 

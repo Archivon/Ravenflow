@@ -1,4 +1,4 @@
-﻿namespace RavenFlow.Activation;
+﻿namespace RavenFLow.Activation;
 
 public interface IActivationHandler
 {

@@ -1,4 +1,4 @@
-﻿namespace RavenFlow.Contracts.Services;
+﻿namespace RavenFLow.Contracts.Services;
 
 public interface IActivationService
 {

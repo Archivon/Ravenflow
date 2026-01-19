@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace RavenFlow.Core.Helpers;
+namespace RavenFLow.Core.Helpers;
 
 public static class Json
 {

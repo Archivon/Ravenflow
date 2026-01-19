@@ -1,6 +1,6 @@
 ﻿using Microsoft.UI.Xaml;
 
-namespace RavenFlow.Contracts.Services;
+namespace RavenFLow.Contracts.Services;
 
 public interface IThemeSelectorService
 {

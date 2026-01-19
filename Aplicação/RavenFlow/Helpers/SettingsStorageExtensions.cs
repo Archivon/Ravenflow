@@ -1,9 +1,9 @@
-﻿using RavenFlow.Core.Helpers;
+﻿using RavenFLow.Core.Helpers;
 
 using Windows.Storage;
 using Windows.Storage.Streams;
 
-namespace RavenFlow.Helpers;
+namespace RavenFLow.Helpers;
 
 // Use these extension methods to store and retrieve local and roaming app data
 // More details regarding storing and retrieving app data at https://docs.microsoft.com/windows/apps/design/app-settings/store-and-retrieve-app-data

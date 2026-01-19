@@ -1,9 +1,9 @@
 ﻿{
     "profiles": {
-      "RavenFlow (Package)": {
+      "RavenFLow (Package)": {
         "commandName": "MsixPackage"
       },
-      "RavenFlow (Unpackaged)": {
+      "RavenFLow (Unpackaged)": {
         "commandName": "Project"
       }
     }

@@ -1,19 +1,19 @@
 ﻿using Microsoft.Extensions.Options;
 
-using RavenFlow.Contracts.Services;
-using RavenFlow.Core.Contracts.Services;
-using RavenFlow.Core.Helpers;
-using RavenFlow.Helpers;
-using RavenFlow.Models;
+using RavenFLow.Contracts.Services;
+using RavenFLow.Core.Contracts.Services;
+using RavenFLow.Core.Helpers;
+using RavenFLow.Helpers;
+using RavenFLow.Models;
 
 using Windows.ApplicationModel;
 using Windows.Storage;
 
-namespace RavenFlow.Services;
+namespace RavenFLow.Services;
 
 public class LocalSettingsService : ILocalSettingsService
 {
-    private const string _defaultApplicationDataFolder = "RavenFlow/ApplicationData";
+    private const string _defaultApplicationDataFolder = "RavenFLow/ApplicationData";
     private const string _defaultLocalSettingsFile = "LocalSettings.json";
 
     private readonly IFileService _fileService;

@@ -1,6 +1,6 @@
 ﻿using Microsoft.UI.Xaml.Controls;
 
-namespace RavenFlow.Helpers;
+namespace RavenFLow.Helpers;
 
 public static class FrameExtensions
 {

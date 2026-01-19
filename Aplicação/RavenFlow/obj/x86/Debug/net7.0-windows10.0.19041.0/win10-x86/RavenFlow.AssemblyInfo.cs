@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("RavenFlow")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("RavenFLow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7514c09a0c524ff757a5d104191cf952f129e69")]
-[assembly: System.Reflection.AssemblyProductAttribute("RavenFlow")]
-[assembly: System.Reflection.AssemblyTitleAttribute("RavenFlow")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60e727e770ad5e8c02363777542927c154071337")]
+[assembly: System.Reflection.AssemblyProductAttribute("RavenFLow")]
+[assembly: System.Reflection.AssemblyTitleAttribute("RavenFLow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows10.0.19041.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows10.0.17763.0")]

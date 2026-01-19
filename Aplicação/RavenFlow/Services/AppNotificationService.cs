@@ -3,10 +3,10 @@ using System.Web;
 
 using Microsoft.Windows.AppNotifications;
 
-using RavenFlow.Contracts.Services;
-using RavenFlow.ViewModels;
+using RavenFLow.Contracts.Services;
+using RavenFLow.ViewModels;
 
-namespace RavenFlow.Notifications;
+namespace RavenFLow.Notifications;
 
 public class AppNotificationService : IAppNotificationService
 {

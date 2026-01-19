@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using System.Text;
 
-namespace RavenFlow.Helpers;
+namespace RavenFLow.Helpers;
 
 public class RuntimeHelper
 {

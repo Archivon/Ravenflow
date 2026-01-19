@@ -61,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\RavenFlow\\Aplicação\\RavenFlow.Core\\RavenFlow.Core.csproj",
-      "projectName": "RavenFlow.Core",
-      "projectPath": "C:\\RavenFlow\\Aplicação\\RavenFlow.Core\\RavenFlow.Core.csproj",
+      "projectUniqueName": "C:\\RavenFlow\\Aplicação\\RavenFLow.Core\\RavenFLow.Core.csproj",
+      "projectName": "RavenFLow.Core",
+      "projectPath": "C:\\RavenFlow\\Aplicação\\RavenFLow.Core\\RavenFLow.Core.csproj",
       "packagesPath": "C:\\Users\\lucak\\.nuget\\packages\\",
-      "outputPath": "C:\\RavenFlow\\Aplicação\\RavenFlow.Core\\obj\\",
+      "outputPath": "C:\\RavenFlow\\Aplicação\\RavenFLow.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

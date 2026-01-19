@@ -2,11 +2,11 @@
 
 using Microsoft.UI.Xaml.Controls;
 
-using RavenFlow.Contracts.Services;
-using RavenFlow.ViewModels;
-using RavenFlow.Views;
+using RavenFLow.Contracts.Services;
+using RavenFLow.ViewModels;
+using RavenFLow.Views;
 
-namespace RavenFlow.Services;
+namespace RavenFLow.Services;
 
 public class PageService : IPageService
 {
@@ -14,7 +14,7 @@ public class PageService : IPageService
 
     public PageService()
     {
-        Configure<RavenFlowViewModel, RavenFlowPage>();
+        Configure<MainViewModel, MainPage>();
         Configure<SettingsViewModel, SettingsPage>();
     }
 

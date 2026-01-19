@@ -1,6 +1,6 @@
 ﻿using System.Collections.Specialized;
 
-namespace RavenFlow.Contracts.Services;
+namespace RavenFLow.Contracts.Services;
 
 public interface IAppNotificationService
 {

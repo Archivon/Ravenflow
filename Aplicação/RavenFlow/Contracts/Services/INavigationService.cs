@@ -1,7 +1,7 @@
 ﻿using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Navigation;
 
-namespace RavenFlow.Contracts.Services;
+namespace RavenFLow.Contracts.Services;
 
 public interface INavigationService
 {

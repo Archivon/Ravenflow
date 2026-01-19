@@ -6,12 +6,12 @@ using CommunityToolkit.Mvvm.Input;
 
 using Microsoft.UI.Xaml;
 
-using RavenFlow.Contracts.Services;
-using RavenFlow.Helpers;
+using RavenFLow.Contracts.Services;
+using RavenFLow.Helpers;
 
 using Windows.ApplicationModel;
 
-namespace RavenFlow.ViewModels;
+namespace RavenFLow.ViewModels;
 
 public partial class SettingsViewModel : ObservableRecipient
 {

@@ -1,9 +1,9 @@
 ﻿using Microsoft.UI.Xaml;
 
-using RavenFlow.Contracts.Services;
-using RavenFlow.Helpers;
+using RavenFLow.Contracts.Services;
+using RavenFLow.Helpers;
 
-namespace RavenFlow.Services;
+namespace RavenFLow.Services;
 
 public class ThemeSelectorService : IThemeSelectorService
 {

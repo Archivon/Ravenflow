@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36518.9 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenFlow", "RavenFlow.csproj", "{43D63FC5-C90F-8B10-2FD1-838DAC675FCB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenFLow", "RavenFLow.csproj", "{43D63FC5-C90F-8B10-2FD1-838DAC675FCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenFlow.Core", "..\RavenFlow.Core\RavenFlow.Core.csproj", "{406F5292-6882-693A-82F3-4F5922DFA3AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenFLow.Core", "..\RavenFLow.Core\RavenFLow.Core.csproj", "{406F5292-6882-693A-82F3-4F5922DFA3AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,6 +52,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8E2757DB-9040-4DAD-9A23-6235D9DFFFEB}
+		SolutionGuid = {0E84A31A-72AC-48CF-B810-64194241E51B}
 	EndGlobalSection
 EndGlobal

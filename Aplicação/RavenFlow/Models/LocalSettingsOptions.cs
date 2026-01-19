@@ -1,4 +1,4 @@
-﻿namespace RavenFlow.Models;
+﻿namespace RavenFLow.Models;
 
 public class LocalSettingsOptions
 {
