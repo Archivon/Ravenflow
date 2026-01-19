@@ -1,0 +1,5 @@
+# Visual Studio
+RavenFlow/.vs/
+
+# Arquivos de índice do Visual Studio
+RavenFlow/.vs/**/*.vsidx

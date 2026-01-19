@@ -1,0 +1,13 @@
+C:\RavenFlow\Aplicação\RavenFlow.Core\bin\x86\Debug\net7.0\RavenFlow.Core.deps.json
+C:\RavenFlow\Aplicação\RavenFlow.Core\bin\x86\Debug\net7.0\RavenFlow.Core.dll
+C:\RavenFlow\Aplicação\RavenFlow.Core\bin\x86\Debug\net7.0\RavenFlow.Core.pdb
+C:\RavenFlow\Aplicação\RavenFlow.Core\obj\x86\Debug\net7.0\RavenFlow.Core.csproj.AssemblyReference.cache
+C:\RavenFlow\Aplicação\RavenFlow.Core\obj\x86\Debug\net7.0\RavenFlow.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\RavenFlow\Aplicação\RavenFlow.Core\obj\x86\Debug\net7.0\RavenFlow.Core.AssemblyInfoInputs.cache
+C:\RavenFlow\Aplicação\RavenFlow.Core\obj\x86\Debug\net7.0\RavenFlow.Core.AssemblyInfo.cs
+C:\RavenFlow\Aplicação\RavenFlow.Core\obj\x86\Debug\net7.0\RavenFlow.Core.csproj.CoreCompileInputs.cache
+C:\RavenFlow\Aplicação\RavenFlow.Core\obj\x86\Debug\net7.0\RavenFlow.Core.sourcelink.json
+C:\RavenFlow\Aplicação\RavenFlow.Core\obj\x86\Debug\net7.0\RavenFlow.Core.dll
+C:\RavenFlow\Aplicação\RavenFlow.Core\obj\x86\Debug\net7.0\refint\RavenFlow.Core.dll
+C:\RavenFlow\Aplicação\RavenFlow.Core\obj\x86\Debug\net7.0\RavenFlow.Core.pdb
+C:\RavenFlow\Aplicação\RavenFlow.Core\obj\x86\Debug\net7.0\ref\RavenFlow.Core.dll

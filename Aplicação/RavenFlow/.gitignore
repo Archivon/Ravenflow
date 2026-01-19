@@ -1,0 +1,6 @@
+# Visual Studio
+.vs/
+
+# Arquivo específico de índice do Visual Studio
+.vs/RavenFlow/FileContentIndex/*.vsidx
+
