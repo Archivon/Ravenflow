@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RavenFlow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c172f09d9eba0f3af5bd336a3e13f62ce5404de7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7514c09a0c524ff757a5d104191cf952f129e69")]
 [assembly: System.Reflection.AssemblyProductAttribute("RavenFlow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RavenFlow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
