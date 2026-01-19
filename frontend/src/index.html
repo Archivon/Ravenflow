@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RavenFlow - Sistema de Gestão Salarial">
+  <title>RavenFlow - Gestão Salarial</title>
+  <link rel="icon" type="image/png" href="./img/RavenFlow.png">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+  <div class="landing-page">
+    <!-- Header -->
+    <header class="landing-header">
+      <div class="header-container">
+        <h1 class="logo">
+          <a href="./index.html" style="color: inherit; text-decoration: none;">RavenFlow</a>
+        </h1>
+        <nav class="header-nav">
+          <div class="nav-dropdown">
+            <a href="#" class="nav-link">Pessoal</a>
+            <div class="dropdown-menu">
+              <div class="dropdown-column">
+                <h3 class="dropdown-title">Poupanças e Fundos</h3>
+                <a href="#" class="dropdown-item">Poupança de Acesso Imediato</a>
+                <a href="#" class="dropdown-item">Fundos Monetários Flexíveis</a>
+              </div>
+              <div class="dropdown-column">
+                <h3 class="dropdown-title">Investimentos</h3>
+                <a href="#" class="dropdown-item">Ações</a>
+                <a href="#" class="dropdown-item">Robo-Advisor</a>
+                <a href="#" class="dropdown-item">ETFs</a>
+                <a href="#" class="dropdown-item">Obrigações</a>
+                <a href="#" class="dropdown-item">Bens</a>
+                <div class="dropdown-subsection">
+                  <h4 class="dropdown-subtitle">Crédito</h4>
+                  <a href="#" class="dropdown-item">Crédito pessoal</a>
+                </div>
+              </div>
+              <div class="dropdown-column">
+                <h3 class="dropdown-title">Finanças globais</h3>
+                <a href="#" class="dropdown-item">Transferências internacionais</a>
+                <div class="dropdown-subsection">
+                  <h4 class="dropdown-subtitle">Cripto</h4>
+                  <a href="#" class="dropdown-item">Criptomoedas</a>
+                </div>
+                <div class="dropdown-subsection">
+                  <h4 class="dropdown-subtitle">Ajuda e apoio</h4>
+                  <a href="#" class="dropdown-item">Contacte-nos</a>
+                  <a href="#" class="dropdown-item">Estado do sistema</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="header-actions">
+          <a href="./pages/login.html" class="btn-link">Iniciar sessão</a>
+          <a href="./pages/register.html" class="btn-register">Registar-se</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="landing-main">
+      <div class="landing-container">
+        <div class="landing-content">
+          <h2 class="landing-title">Muito mais do que gestão salarial</h2>
+          <p class="landing-description">
+            Quer esteja no seu país ou no estrangeiro, deixe a RavenFlow superar as suas expectativas de gestão. 
+            Registe-se gratuitamente, com um toque.
+          </p>
+          <a href="./pages/register.html" class="btn-download">Começar agora</a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator">
+      <div class="scroll-circle">
+        <svg class="scroll-text" viewBox="0 0 200 200" width="200" height="200">
+          <defs>
+            <path id="circle" d="M 100, 100 m -75, 0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0"/>
+          </defs>
+          <text fill="white" font-size="10" font-weight="600" letter-spacing="1.5" font-family="Arial, sans-serif">
+            <textPath href="#circle" startOffset="0%">
+              RAVENFLOW • SCROLL DOWN TO SEE MORE •
+            </textPath>
+          </text>
+        </svg>
+        <div class="scroll-arrow">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 5v14M19 12l-7 7-7-7"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
