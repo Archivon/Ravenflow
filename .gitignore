@@ -49,3 +49,7 @@ jspm_packages/
 discord-users.json
 *.sql
 *.mwb
+backend/package.json
+backend/package-lock.json
+frontend/package-lock.json
+frontend/package.json
