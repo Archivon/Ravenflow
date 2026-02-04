@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0
+    container_name: ravenflow_db
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-rootpassword}
+      MYSQL_DATABASE: ${DB_NAME:-ravenflow}
+      MYSQL_USER: ${DB_USER:-ravenflow}
+      MYSQL_PASSWORD: ${DB_PASSWORD:-ravenflow123}
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ../sql/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    networks:
+      - ravenflow-network
+
+  backend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.dev
+    container_name: ravenflow_backend
+    environment:
+      NODE_ENV: development
+      PORT: 3000
+      DB_HOST: db
+      DB_USER: ${DB_USER:-ravenflow}
+      DB_PASSWORD: ${DB_PASSWORD:-ravenflow123}
+      DB_NAME: ${DB_NAME:-ravenflow}
+      JWT_SECRET: ${JWT_SECRET:-your-secret-key-change-in-production}
+    ports:
+      - "3000:3000"
+    volumes:
+      - ../backend:/app
+    depends_on:
+      - db
+    networks:
+      - ravenflow-network
+    command: npm run dev
+
+volumes:
+  db_data:
+
+networks:
+  ravenflow-network:
+    driver: bridge

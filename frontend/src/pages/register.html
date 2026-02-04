@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criar conta - RavenFlow</title>
+  <link rel="icon" type="image/png" href="../img/RavenFlow.png">
+  <link rel="stylesheet" href="../styles/auth.css">
+</head>
+<body>
+  <div class="auth-container">
+    <div class="logo-top">
+      <h1 class="logo"><a href="../index.html" style="color: inherit; text-decoration: none;">RavenFlow</a></h1>
+    </div>
+    
+    <!-- Left Side - Register Form -->
+    <div class="auth-left">
+      <div class="auth-content">
+        <div class="welcome-section">
+          <h2 class="welcome-title">Criar uma conta</h2>
+          <p class="welcome-subtitle">Preencha os dados abaixo para criar a sua conta</p>
+        </div>
+
+        <form id="register-form" class="auth-form">
+          <div class="form-group">
+            <input 
+              type="text" 
+              id="name" 
+              name="name" 
+              class="form-input"
+              placeholder="Nome completo"
+              required
+              autocomplete="name"
+            >
+          </div>
+
+          <div class="form-group">
+            <input 
+              type="email" 
+              id="email" 
+              name="email" 
+              class="form-input"
+              placeholder="Introduza o seu e-mail"
+              required
+              autocomplete="email"
+            >
+          </div>
+          
+          <div class="form-group">
+            <input 
+              type="password" 
+              id="password" 
+              name="password" 
+              class="form-input"
+              placeholder="Palavra-passe (mínimo 8 caracteres)"
+              required
+              autocomplete="new-password"
+              minlength="8"
+            >
+          </div>
+
+          <div class="form-group">
+            <input 
+              type="password" 
+              id="confirm-password" 
+              name="confirm-password" 
+              class="form-input"
+              placeholder="Confirmar palavra-passe"
+              required
+              autocomplete="new-password"
+            >
+          </div>
+
+          <div class="form-group checkbox-group">
+            <label class="checkbox-label">
+              <input type="checkbox" id="terms" name="terms" required>
+              <span>Concordo com os <a href="#" class="link">Termos e Condições</a> e <a href="#" class="link">Política de Privacidade</a></span>
+            </label>
+          </div>
+
+          <button type="submit" class="btn-primary btn-continue">
+            Criar conta
+          </button>
+        </form>
+
+        <div class="signup-prompt">
+          <p>Já tem uma conta? <a href="login.html" class="signup-link">Iniciar sessão</a></p>
+        </div>
+
+        <div id="error-message" class="error-message"></div>
+        <div id="success-message" class="success-message"></div>
+      </div>
+
+      <footer class="auth-footer">
+        <div class="footer-content">
+          <div class="language-selector">
+            <span class="flag">🇵🇹</span>
+            <span>Português</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
+              <path d="M6 9L1 4h10z"/>
+            </svg>
+          </div>
+          <a href="#" class="privacy-link">Política de Privacidade</a>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script type="module" src="../scripts/pages/register.js"></script>
+</body>
+</html>
